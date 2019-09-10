@@ -29,7 +29,7 @@ In the B2B collaboration flows, we add users to the directory and dynamically up
 Azure AD B2B is subject to Azure AD service directory limits. For details about the number of directories a user can create and the number of directories to which a user or guest user can belong, see [Azure AD service limits and restrictions](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-service-limits-restrictions).
 
 ## National clouds
-[National clouds](https://docs.microsoft.com/azure/active-directory/develop/authentication-national-cloud) are physically isolated instances of Azure. B2B collaboration is not supported across national cloud boundaries. For example, if your Azure tenant is in the public, global cloud, you can't invite a user whose account is in a national cloud. To collaborate with the user, ask them for another email address or create a member user account for them in your directory.
+[National clouds](https://docs.microsoft.com/azure/active-directory/develop/authentication-national-cloud) are physically isolated instances of Azure. B2B collaboration is supported in US Gov. However, this is not supported in other  national clouds. There is also the limitation of collaborating across national cloud boundaries. For example, if your Azure tenant is in the public, global cloud, you can't invite a user whose account is in a national cloud. To collaborate with the user, ask them for another email address or create a member user account for them in your directory.
 
 ## Next steps
 
